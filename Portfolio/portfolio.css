@@ -54,15 +54,15 @@ p{
     Letter-spacing:4px;
     font-size:24px;
     overflow:hidden;
-    transition: 0.2s;
+/*     transition: 0.2s; */
     border-radius: 5px;
 }
 a:hover{
     color:#da8423f6;
-    text-decoration:none;
     background:#F5F5DC;
+    text-decoration:none;
     box-shadow: 0 0 10px #F5F5DC, 0 0 40px #F5F5DC,0 0 80px #F5F5DC;
-    transition-delay: 0.5s;
+    transition-delay: 0.3s;
 }
 #id2{
     box-shadow: none;
@@ -77,6 +77,8 @@ a:hover{
 }
 #id4
 {
+    box-shadow: none;
+    background: none;
     font-size:35px;
     transition-delay: 0.2s;
 
